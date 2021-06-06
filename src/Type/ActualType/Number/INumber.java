@@ -3,7 +3,7 @@ import Type.ActualType.Number.*;
 import Type.ActualType.Number.ActualNumber.*;
 import Type.IType;
 
-public interface INumber extends IType {
+public interface INumber{
     public double toFloat();
     public TypeFloat toTypeFloat();
 
